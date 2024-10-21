@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Game - Detona Ralph</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/styles/index.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Detona Ralph</h1>
+    </header>
+    <main>
+      <div class="game">
+        <div class="game__screen">
+          <div class="game__screen__score">
+            <span>Score: 0</span>
+          </div>
+          <div class="game__screen__game-over">
+            <span>Game Over</span>
+          </div>
+          <div class="game__screen__game-win">
+            <span>Game Win</span>
+          </div>
+          <div class="game__screen__player"></div>
+          <div class="game__screen__enemies"></div>
+          <div class="game__screen__bullets"></div>
+        </div>
+        <div class="game__controls">
+          <button class="game__controls__button" id="start">Start</button>
+          <button class="game__controls__button" id="pause">Pause</button>
+          <button class="game__controls__button" id="reset">Reset</button>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="./src/scripts/index.js"></script>
+  
+</body>
+</html>
