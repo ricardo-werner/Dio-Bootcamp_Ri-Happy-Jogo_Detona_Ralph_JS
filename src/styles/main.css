@@ -1,0 +1,14 @@
+.panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-top: 1px solid #fff;
+}
+
+/* .square {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #fff;
+} */
