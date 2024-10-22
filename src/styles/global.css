@@ -5,25 +5,21 @@
 }
 
 :root {
-
-  --font-family: "Press Start 2P", system-ui;;
+  --font-family-header: "Bebas Neue",  sans-serif;
+  --font-family-game: "Press Start 2P", system-ui;
 
   --text-regular: 400 1rem var(--font-family);
   --text-medium: 600 1.5rem var(--font-family);
-  --text-large: 700 2rem var(--font-family);
+  --text-large: 3rem var(--font-family-header);
 
   --color-background: #000000;
   --color-background-header: #ff0000;
-  --color-primary: #ffffff;
+  --color-primary: #000000;
   --color-secondary: #93f068;
 }
 
-.container-game {
+.container{
   display: flex;
-  justify-content: space-between;
-  height: 100vh;
-  padding: 2rem 4rem;
-  background: var(--color-background);
-  font: var(--font-family);
-  color: var(--color-primary);
+  flex-direction: column;
+  height: 100%;
 }
