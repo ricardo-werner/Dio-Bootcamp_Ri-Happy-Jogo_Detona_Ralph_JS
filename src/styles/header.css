@@ -2,7 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: var(--color-background-header);
   height: 5rem;
-  background-color: var(--color-background-header);
+  font: var(--text-large);
   color: var(--color-secondary);
 }
