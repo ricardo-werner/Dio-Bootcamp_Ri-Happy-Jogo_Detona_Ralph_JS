@@ -9,6 +9,7 @@
   <title>JS Game - Detona Ralph</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Press+Start+2P&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="./src/styles/index.css">
 </head>
 <body>
@@ -17,30 +18,31 @@
       <h1>Detona Ralph</h1>
     </header>
     <main>
-      <div class="game">
-        <div class="game__screen">
-          <div class="game__screen__score">
-            <span>Score: 0</span>
-          </div>
-          <div class="game__screen__game-over">
-            <span>Game Over</span>
-          </div>
-          <div class="game__screen__game-win">
-            <span>Game Win</span>
-          </div>
-          <div class="game__screen__player"></div>
-          <div class="game__screen__enemies"></div>
-          <div class="game__screen__bullets"></div>
+      <div class="container-game">
+        <div class="menu-time">
+          <h2>Your Time</h2>
+          <h2>0</h2>
         </div>
+
+        <div class="menu-score">
+          <h2>Your Score</h2>
+          <h2>0</h2>
+        </div>
+
+        <div class="menu-lifes">
+          <h2>Your Lifes:</h2>
+          <h2><img src="src/imagens/player.png">x3</h2>
+        </div>
+        
         <div class="game__controls">
-          <button class="game__controls__button" id="start">Start</button>
-          <button class="game__controls__button" id="pause">Pause</button>
-          <button class="game__controls__button" id="reset">Reset</button>
+          <button class="game-controls-button" id="start">Start</button>
+          <button class="game-controls-button" id="pause">Pause</button>
+          <button class="game-controls-button" id="reset">Reset</button>
         </div>
       </div>
     </main>
   </div>
-  <script src="./src/scripts/index.js"></script>
+  <script src="./src/scripts/engine.js"></script>
   
 </body>
 </html>
