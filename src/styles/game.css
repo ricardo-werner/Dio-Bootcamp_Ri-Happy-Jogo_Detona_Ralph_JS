@@ -6,10 +6,10 @@
 }
 
 .square {
-  width: 150px;
-  height: 150px;
+  width: 9.38rem;
+  height: 9.38rem;
   border: 1px solid #000000;
-  background-color: #09ec2f;
+  background-color: var(--color-background-game);
 }
 
 .enemy {
