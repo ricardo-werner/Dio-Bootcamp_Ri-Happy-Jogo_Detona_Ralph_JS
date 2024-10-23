@@ -8,18 +8,32 @@
   --font-family-header: "Bebas Neue",  sans-serif;
   --font-family-game: "Press Start 2P", system-ui;
 
-  --text-regular: 400 1rem var(--font-family);
-  --text-medium: 600 1.5rem var(--font-family);
-  --text-large: 3rem var(--font-family-header);
+  --text-regular: 400 1rem var(--font-family-game);
+  --text-medium: 400 1.5rem var(--font-family-game);
+  --text-large: 400 3rem var(--font-family-header);
 
   --color-background: #000000;
   --color-background-header: #ff0000;
   --color-primary: #000000;
   --color-secondary: #93f068;
+  --color-text: #ff0000;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 100vh;
+  background-image: url("../imagens/wall.png");
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  height: 90px;
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  border-bottom: 5px  solid #ffd700;
 }
