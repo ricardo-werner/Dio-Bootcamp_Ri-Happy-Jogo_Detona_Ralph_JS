@@ -1,9 +1,13 @@
-.container h1 {
+.container header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--color-background-header);
-  height: 5rem;
-  font: var(--text-large);
-  color: var(--color-secondary);
+
+  height: 70px;
+  width: 100%;
+  background-color: red;
+  color: #ffffff;
+  border: 5px solid #ffd700;
+  border-left: 0;
+  border-right: 0;
 }
