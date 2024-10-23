@@ -3,10 +3,11 @@
   justify-content: center;
   align-items: center;
 
-  height: 70px;
+  height: 4.38rem;
   width: 100%;
-  background-color: red;
-  color: #ffffff;
+  background-color: var(--color-background-header);
+  font: var(--text-large);
+  color: var(--color-secondary);
   border: 5px solid #ffd700;
   border-left: 0;
   border-right: 0;
