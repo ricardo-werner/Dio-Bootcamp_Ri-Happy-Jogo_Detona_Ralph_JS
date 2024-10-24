@@ -85,7 +85,7 @@ Desenvolver este projeto foi mais um passo no meu desenvolvimento na arte da pro
 4. Visualize o resultado na página web:
 
    <p align="center">
-     <img width="480" src="./assets/to_readme/resultadoWeb.PNG" alt="Resultado na Web">
+     <img width="480" src="./src/to_readme/resultadoWeb.PNG" alt="Resultado na Web">
    </p>
 
 
