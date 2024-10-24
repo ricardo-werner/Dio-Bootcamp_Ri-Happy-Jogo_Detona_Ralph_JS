@@ -16,18 +16,18 @@ Este projeto consiste em desenvolver uma cópia do jogo para a plataforma Wii, c
 
 ### ✅ Status do Projeto
 
-**Concluído**
+**Em Desenvolvimento**
 
 ### 🎥 Demonstração
 
 #### Tela do Jogo
 <p align="center">
-  <img width="480" src="./src/to_readme/" alt="imagem da tela do jogo Detona Ralph">
+  <img width="480" src="./src/to_readme/telaDoJogo.PNG" alt="imagem da tela do jogo Detona Ralph">
 </p>
 
 #### Tela do código
 <p align="center">
-  <img width="480" src="./src/to_readme/" alt="imagem dos códigos utilizados na programação do jogo Detona Ralph">
+  <img width="480" src="./src/to_readme/telaDoCodigo.PNG" alt="imagem dos códigos utilizados na programação do jogo Detona Ralph">
 </p>
 
 ### 🧩 Desafio
@@ -51,7 +51,7 @@ No desenvolvimento deste jogo, foram aplicados os seguintes conceitos:
 |-------|---------------------------------------------|
 |  1    | HTML                                        |
 |  2    | CSS                                         |
-|  3    | JAvascript                                  |
+|  3    | Javascript                                  |
 
 ### 🛠 Tecnologias Utilizadas
 
