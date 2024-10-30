@@ -2,7 +2,7 @@
 
 Desafio prático do Bootcamp da Ri Happy, para desenvolver um cópia do jogo detona Ralph.
 
-## Página estática de Portifólio DEV pessoal 
+## Página estática do Jogo Detona Ralph 
 
 ### 📜 Sobre o Projeto
 
